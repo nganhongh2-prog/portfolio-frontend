@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300;400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#app {
+  font-family: 'Battambang', sans-serif;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+.Vue-Toastification__toast--success {
+  background-color: #2563eb !important;
+}
+
+.Vue-Toastification__toast--error {
+  background-color: #dc2626 !important;
+}
+
+.Vue-Toastification__toast--warning {
+  background-color: #f59e0b !important;
+}
+
+.Vue-Toastification__toast--info {
+  background-color: #0610d4 !important;
+}
+.Vue-Toastification__container.top-right {
+  top: 65px !important;
+}
